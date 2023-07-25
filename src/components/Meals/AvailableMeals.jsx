@@ -35,6 +35,7 @@ const AvailableMeals = () => {
     // meal={meal} 이렇게하고, MealItem 컴포넌트에서 props.meal.description 이런식으로 사용할 수 있음!
     <MealItem
       key={meal.id}
+      id={meal.id}
       name={meal.name}
       description={meal.description}
       price={meal.price}
